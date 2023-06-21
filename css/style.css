@@ -1,0 +1,128 @@
+.payment-info .content_header{
+    position: relative;
+    background-color: #3D61AC;
+    min-height: 195px;
+    width: 100%;
+    margin-bottom: 120px;
+}
+.payment-info .content_header h4{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding-top: 35px;
+}
+.payment-info .content_header .balance-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 84%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: -50%;
+    min-height: 200px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.payment-info .content_header .balance-card p{
+    color: #4F4F4F;
+    font-size: 15px;
+    line-height: 23px;
+}
+.payment-info .balance-card h3{
+    color: #3D61AC;
+    font-size: 36px;
+    font-weight: 600;
+}
+.payment-info .content_body .cards{
+    background-color: #F7F7F7;
+    min-height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.payment-info .content_body h3{
+    color: #777777;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.payment-info .content_body .cards p{
+    font-size: 16px;
+    color: #777777;
+}
+.content_footer a.btn{
+    width: 100%;
+    border: 1px solid #3D61AC;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-top: 30px;
+    min-height: 45px;
+    color: #3D61AC;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+/* start second page */
+.payment-confirm .content_header{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.payment-confirm .content_header h4{
+    font-size: 16px;
+    line-height: 25px;
+    color: #3D61AC;
+    font-weight: 700;
+    text-align: center;
+}
+.payment-confirm .content_body .credit {
+    margin-bottom: 17px;
+}
+.payment-confirm form label{
+    color: #777777;
+    font-size: 16px;
+}
+.payment-confirm .form-control{
+    background: #F2F2F2;
+    min-height: 45px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+}
+.payment-confirm .security{
+    margin-top: 22px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.security p{
+    line-height: 21px;
+    font-size: 14px;
+    margin: 0 5px;
+}
+.payment-confirm .confirm a{
+    background: #3D61AC;
+    border: 1px solid #3D61AC;
+    border-radius: 6px; 
+    min-height: 45px;
+    width: 100%;
+    min-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}
+.payment-confirm .confirm a:hover{
+    color: #fff;
+}
+/* end second page */
